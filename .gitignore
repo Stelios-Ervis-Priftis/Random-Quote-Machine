@@ -1,0 +1,10 @@
+.env
+.DS_Store
+node_modules
+yarn.lock
+bundle.js
+bundle.js.map
+1.bundle.js
+1.bundle.js.map
+2.bundle.js
+2.bundle.js.map
