@@ -9,13 +9,12 @@ export default class QuoteApp extends Component {
 	};
 
 	fetchQuoteApi = async () => {
-		const url = 'https://api.api-ninjas.com/v1/quotes';
+		const url = 'https://api.quotable.io/random';
 
 		try {
 			const response = await fetch(url, {
 				method: 'GET',
 				headers: {
-					'X-Api-Key': process.env.NINJA_KEY,
 					contentType: 'application/json',
 				},
 			});
