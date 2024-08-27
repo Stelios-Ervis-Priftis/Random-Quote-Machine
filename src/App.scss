@@ -1,0 +1,50 @@
+.container {
+	width: 550px;
+	gap: 30px;
+	display: flex;
+	flex-direction: column;
+	margin: 50vh auto 0;
+	transform: translateY(-50%);
+}
+
+.title,
+.quote,
+.author {
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+
+.quote {
+	font-style: italic;
+}
+
+.author {
+	font-style: italic;
+	font-weight: bold;
+}
+
+.btn {
+	padding: 12px;
+	width: 100%;
+	border: none;
+	border-radius: 5px;
+	text-transform: uppercase;
+	cursor: pointer;
+	font-weight: bold;
+	color: #fff;
+	background-color: #fff;
+	border: 1px solid;
+
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+
+.btn:disabled {
+	cursor: default;
+	transform: none;
+	box-shadow: none;
+}
